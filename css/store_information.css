@@ -1,0 +1,452 @@
+@import url("reset.css");
+body{
+    background-color: #DEF0C6;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.header {
+    /* width: 100%; */
+}
+
+.banner1 {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+
+/* <!-- 導覽列 --> */
+.nav-top {
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+/* <!-- 導覽列左邊 --> */
+
+.nav1 {
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(0deg, #2e6603 0%, #1E380D 30%, #0F1A11 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    letter-spacing: 2px;
+    
+}
+
+.nav1 li {}
+
+.nav1 li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 30px 30px;
+
+}
+
+.nav1 li a img {}
+
+/* <!-- 導覽列右邊 --> */
+.nav2 {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    transform: translateY(-50%);
+    
+
+}
+
+.nav2 li {}
+
+.nav2 li a {
+    padding: 20px 0;
+    display: block;
+    width: 50px;
+    text-align: center;
+}
+
+/* -----門市資訊標籤----- */
+.body-list{}
+
+.body-mid-banner2{
+    position: relative;
+    padding-top: 260px;
+    
+}
+
+.body-mid-banner2 .mid-banner2{
+    display: block;
+    padding-bottom: 100px;
+    
+}
+
+.body-mid-banner2 .mid-banner2 h1{
+    font-size: 64px;
+    font-family: arial;
+    color: #517C09;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body-mid-banner2 .mid-banner2 h1::before{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 4px;
+    background-color: #517C09;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -420% 1080%;
+}
+
+.body-mid-banner2 .mid-banner2 h1::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 4px;
+    background-color: #517C09;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: 420% 1080%;
+}
+
+.mid-banner2 h3{
+    font-size: 40px;
+    color: #73B20A;
+    font-weight:500;
+    text-align: center;
+}
+
+.mid-banner2 h3::before{
+    content: "";
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url("../img/object3.png");
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: -360% 310%;
+
+}
+
+.mid-banner2 h3::after{
+    content: "";
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url("../img/object3.png");
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: 450% 310%;
+}
+/* 物件1 */
+.object1{
+    position: relative;
+}
+
+.object1 img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 49.5%;
+    z-index: -1;
+    translate: 168.5% -47%; 
+}
+
+/* ---資訊列表---- */
+
+/* 標籤 */
+.body-banner-taipei{
+    width: 1100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #517C09;
+}
+
+.body-banner-taipei h3{
+    font-size: 40px;
+    color: #517C09;
+    margin-left: 10px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.body-inf-list{
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto 120px;
+}
+
+.body-inf-taipei{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px dashed #517C09;
+}
+
+.body-inf-list1{
+    width: 350px;
+    padding: 50px 0;
+}
+
+.body-inf-list1 h5{
+    font-size: 24px;
+    color: #517C09;
+    margin-left: 10px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+.body-inf-list2{
+    width: 530px;
+}
+
+.body-inf-list2 h5{
+    font-size: 24px;
+    color: #517C09;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+/* 資訊按鈕 */
+.body-inf-list3{
+    width: 350px;
+}
+
+.body-mid-bottom{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+    transform: translateY(40px);
+}
+
+.body-mid-bottom .bottom1{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #94E30F;
+    border-radius: 50%;
+}
+.body-mid-bottom a{
+    text-decoration: none;
+}
+.body-mid-bottom .bottom2{
+    width: 80px;
+    height: 80px;
+    border: 2.5px solid #517C09;
+    border-radius: 50%;
+    transform:translate(70px, -91px)
+}
+
+.body-mid-bottom .bottom2 p{
+    color: #517C09;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+/* 物件2 */
+.object2{
+    position: relative;
+}
+
+.object2 img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    translate: -100% -45%;
+}
+
+/* 底層回到最上物件 */
+.bottom-object{
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.bottom-object .bottom-obj6{
+    position: relative;
+    text-decoration: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.bottom-object .bottom-obj6 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.bottom-object .bottom-obj6 p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #517C09;
+    position:absolute ;
+    top: 45px;
+    left: 124px;
+}
+
+.bottom-object .bottom-obj7{}
+
+.bottom-object .bottom-obj7 img{
+    display: block;
+    width: 100%;
+}
+
+/* ----footer---- */
+.footer{
+    background-image: url("../img/footer.jpg");
+    display: block;
+    height: 482px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .footer-top{
+    justify-content: center;
+    display: flex;
+    transform:translate(-200px);
+}
+
+/* 左邊logo區塊 */
+.footer-top .main-left{
+    margin-left: 200px;
+    margin-top: 150px;
+    text-align: center;
+}
+.footer-top .main-left img{
+    margin-bottom: 30px;
+}
+
+.footer-top .main-left .main-left-icon{}
+
+.footer-top .main-left .main-left-icon img{
+    padding: 10px;
+}
+
+/* 右邊導覽列 */
+.footer-top .main-right{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.footer-top .main-right ul{}
+/* 品牌故事 */
+.main-right1{}
+
+.main-right1::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.main-right1 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 最新消息 */
+.main-right2{
+    margin-left: 50px;
+}
+
+.main-right2::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.main-right2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 所有商品 */
+.main-right3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.main-right3 :nth-child(1)::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.main-right3 a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* 門市資訊 */
+.main-right4{
+    margin-left: 50px;
+}
+
+.main-right4::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.main-right4 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 線上購物 */
+.main-right5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.main-right5 :nth-child(1)::after{
+    content: "";
+    display: block;
+    width: 123px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.main-right5 a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* 底層文字 */
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}

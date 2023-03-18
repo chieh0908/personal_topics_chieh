@@ -3,9 +3,7 @@ body{
     background-color: #DEF0C6;
     font-family: 'Noto Sans TC', sans-serif;
 }
-.header {
-    
-}
+.header {}
 
 .banner1 {
     width: 100%;
@@ -36,20 +34,16 @@ body{
     justify-content: center;
     /* border: 1px solid red; */
     overflow: hidden;
+    letter-spacing: 2px;
 
 }
 
-.nav1 li {
-    /* margin-top: 5px; */
-    /* margin-left: 30px; */
-    /* border: 1px solid orange; */
-}
+.nav1 li {}
 
 .nav1 li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    /* border: 1px solid purple; */
     padding: 30px 30px;
 
 }
@@ -58,14 +52,11 @@ body{
 
 /* <!-- 導覽列右邊 --> */
 .nav2 {
-    /* width: 300px; */
     display: flex;
     position: absolute;
     top: 60px;
     right: 50px;
     transform: translateY(-50%);
-    
-
 }
 
 .nav2 li {}
@@ -75,9 +66,6 @@ body{
     display: block;
     width: 50px;
     text-align: center;
-    /* border: 1PX solid BLACK; */
-    
-
 }
 
 /* ----最新消息---- */
@@ -95,9 +83,7 @@ body{
 
 .body-bottom-banner2 .bottom-banner2{
     display: block;
-    /* margin: 0 auto; */
-    padding-bottom: 100px;
-    
+    padding-bottom: 100px; 
 }
 
 .body-bottom-banner2 .bottom-banner2 h1{
@@ -111,7 +97,6 @@ body{
 .body-bottom-banner2 .bottom-banner2 h1::before{
     content: "";
     display: block;
-    /* border: 1px solid red; */
     width: 123px;
     height: 4px;
     background-color: #517C09;
@@ -150,7 +135,6 @@ body{
     top: 50%;
     right: 50%;
     translate: -360% 110%;
-
 }
 
 .body-bottom-banner2 .bottom-banner2 h3::after{
@@ -163,7 +147,6 @@ body{
     top: 50%;
     right: 50%;
     translate: 450% 110%;
-
 }
 
 /* 中間消息 */
@@ -193,7 +176,6 @@ body{
 .body-bottom ul .bottom-news1 .news1{
     /* padding-left: 120px; */
     padding-top: 40px;
-    
 }
 
 .body-bottom ul .bottom-news1 .news1 .news1-bar{
@@ -234,14 +216,12 @@ body{
 
 .body-bottom ul .bottom-news2{
     margin-left: 20px;
-    /* display: flex; */
     width: 370px;
     margin-bottom: 80px;
     margin-right: 50px;
 }
 
 .body-bottom ul .bottom-news2 .news2{
-    /* padding-left: 40px; */
     padding-top: 40px;
 }
 
@@ -297,7 +277,6 @@ body{
 }
 
 .body-bottom ul .bottom-news3 .news3{
-    /* padding-left: 40px; */
     padding-top: 40px;
 }
 
@@ -336,13 +315,11 @@ body{
 
 .body-bottom ul .bottom-news4{
     margin-left: 20px;
-    /* display: flex; */
     width: 370px;
     margin-bottom: 80px;
 }
 
 .body-bottom ul .bottom-news4 .news4{
-    /* padding-left: 40px; */
     padding-top: 40px;
 }
 
@@ -390,37 +367,37 @@ body{
 /* 底圖物件 */
 .obj4{
     position: relative;
-    /* overflow: hidden; */
 }
 
 .obj4 img{
     position: absolute;
-    top: 110%;
-    left: 60%;
+    display: block;
+    top: -250px;
+    left: 46.5%;
     z-index: -1;
+    
 }
 
 /* ----footer---- */
 .footer{
     background-image: url("../img/footer.jpg");
-    /* background-position: center; */
-    /* background-size: 1920px,482px; */
-    width: 1920px;
+    display: block;
     height: 482px;
-    margin-top: 360px;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
 }
 
 .footer .footer-top{
+    justify-content: center;
     display: flex;
+    transform:translate(-200px);
 }
 
 /* 左邊logo區塊 */
 .footer-top .main-left{
     margin-left: 200px;
     margin-top: 150px;
-    /* border: 1px solid red; */
     text-align: center;
 }
 .footer-top .main-left img{
@@ -430,7 +407,6 @@ body{
 .footer-top .main-left .main-left-icon{}
 
 .footer-top .main-left .main-left-icon img{
-    /* border: 1px solid red; */
     padding: 10px;
 }
 
@@ -542,15 +518,14 @@ body{
 
 /* 底層文字 */
 .footer-bottom{
+    text-align: center;
     margin-top: 20px;
-    /* border: 1px solid red; */
-    /* text-align: center; */
-    margin-left: 400px;
 }
 
 .footer-bottom p{
     color: white;
     font-size: 15px;
     letter-spacing: 2px;
+    
     
 }
