@@ -72,7 +72,15 @@ body{
     display: block;
     width: 50px;
     text-align: center;
+    overflow: hidden;
 }
+
+/* -----hover------ */
+.nav2 li a img:hover{
+    filter: drop-shadow(50px 0 0 #94E30F);
+    margin-left: -100px;
+}
+/* -------------- */
 
 /* ----最新消息---- */
 
@@ -410,10 +418,26 @@ body{
     margin-bottom: 30px;
 }
 
-.footer-top .main-left .main-left-icon{}
+.footer-top .main-left .main-left-icon{
+    display: flex;
+}
+
+.main-left-icon a{
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+
+/* -----hover------ */
+.main-left-icon img:hover{
+    filter: drop-shadow(50px 0 0 #94E30F);
+    margin-left: -100px;
+}
+/* -------------- */
 
 .footer-top .main-left .main-left-icon img{
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* 右邊導覽列 */
