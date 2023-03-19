@@ -39,12 +39,18 @@ body{
 
 .nav1 li {}
 
+/* -----hover----- */
+.nav1 li a:hover{
+    color: #94E30F;
+}
+/* ------------- */
+
 .nav1 li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
     padding: 30px 30px;
-
+    transition: 0.7s;
 }
 
 .nav1 li a img {}
@@ -219,7 +225,11 @@ body{
 .body-inf-list3{
     width: 350px;
 }
-
+/* -----hover */
+.body-mid-bottom:hover > a > .bottom2{
+    transform: translate(8px,-92px) rotate(-360deg);
+}
+/* --------- */
 .body-mid-bottom{
     display: flex;
     justify-content: center;
@@ -242,7 +252,8 @@ body{
     height: 80px;
     border: 2.5px solid #517C09;
     border-radius: 50%;
-    transform:translate(70px, -91px)
+    transform:translate(70px, -91px);
+    transition: 1s;
 }
 
 .body-mid-bottom .bottom2 p{
@@ -286,6 +297,12 @@ body{
     margin: 0 auto;
 }
 
+/* -----hover------ */
+.bottom-object .bottom-obj6:hover p{
+    color: white;
+}
+/* ------------- */
+
 .bottom-object .bottom-obj6 p{
     font-size: 24px;
     font-weight: bold;
@@ -293,6 +310,7 @@ body{
     position:absolute ;
     top: 45px;
     left: 124px;
+    transition: 0.8s;
 }
 
 .bottom-object .bottom-obj7{}
@@ -352,9 +370,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right1 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right1 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 最新消息 */
@@ -371,9 +396,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right2 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right2 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 所有商品 */
@@ -392,10 +424,17 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right3 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right3 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 門市資訊 */
@@ -412,9 +451,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right4 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right4 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 線上購物 */
@@ -433,10 +479,17 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right5 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right5 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 底層文字 */

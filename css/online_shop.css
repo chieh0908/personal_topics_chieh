@@ -41,12 +41,18 @@ body {
 
 .nav1 li {}
 
+/* -----hover----- */
+.nav1 li a:hover{
+    color: #94E30F;
+}
+/* ------------- */
+
 .nav1 li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
     padding: 30px 30px;
-
+    transition: 0.7s;
 }
 
 .nav1 li a img {}
@@ -122,15 +128,20 @@ body {
     z-index: -1;
 }
 
+.nav-left ul li:hover a{
+    /* display: block; */
+    color: white;
+    background-color: #73B20A;
+    /* width: 800px; */
+}
 
 .nav-left ul li {
     /* height: 20%; */
     border-bottom: 1px solid #73B20A;
-    width: 200px;
+    width: 400px;
     margin: 0 auto;
     margin-bottom: 50px;
     line-height: 1.4;
-    
 }
 
 .nav-left ul li a {
@@ -139,6 +150,7 @@ body {
     color: #517C09;
     text-decoration: none;
     padding: 20px 20px;
+    transition: 0.8s;
 }
 
 /* 物件2 */
@@ -266,15 +278,35 @@ body {
     margin-bottom: 30px;
 }
 
-.main-right ul li {
+.main-right ul li:hover{
+    box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
+}
+
+.main-right ul li{
     margin: 50px 40px;
     height: 530px;
     background-color: #C5E4A6;
-    box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
-
+    /* box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8); */
+    /* width: 389px; */
+    overflow: hidden;
+    transition: 0.8s;
 }
 
-.main-right ul li img {}
+.main-right ul li a{
+    display: block;
+    text-decoration: none;
+    width: 385px;
+    height: 389px;
+    overflow: hidden;
+}
+
+.main-right ul li img:hover{
+    transform: scale(1.2);
+}
+
+.main-right ul li img {
+    transition: 0.8s;
+}
 
 .main-right ul li p {
     font-size: 20px;
@@ -282,6 +314,7 @@ body {
     text-align: center;
     line-height: 1.4;
     transform: translateY(20px);
+    background-color: #C5E4A6;
 }
 
 /* ----footer---- */
@@ -338,9 +371,16 @@ body {
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right1 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right1 a {
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 最新消息 */
@@ -357,9 +397,16 @@ body {
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right2 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right2 a {
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 所有商品 */
@@ -378,10 +425,17 @@ body {
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right3 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right3 a {
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 門市資訊 */
@@ -398,9 +452,16 @@ body {
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right4 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right4 a {
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 線上購物 */
@@ -419,10 +480,17 @@ body {
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right5 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right5 a {
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 底層文字 */

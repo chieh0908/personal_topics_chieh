@@ -39,12 +39,18 @@ body{
 
 .nav1 li {}
 
+/* -----hover----- */
+.nav1 li a:hover{
+    color: #94E30F;
+}
+/* ------------- */
+
 .nav1 li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
     padding: 30px 30px;
-
+    transition: 0.7s;
 }
 
 .nav1 li a img {}
@@ -216,10 +222,19 @@ body{
     width: 387px;
     background-color: #C5E4A6;
     box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
-    
+    /* overflow: hidden; */
+}
+
+.cart-top ul li:hover{
+    /* box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8); */
 }
 
 .cart-top ul li img{}
+
+.cart-top ul li img:hover{
+    /* transform: scale(180%); */
+    
+}
 
 .cart-top ul li p{
     font-size: 20px;
@@ -254,6 +269,11 @@ body{
     text-decoration: none;
     width: 300px;
     margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.bottom-object .bottom-obj6:hover p{
+    color: white;
 }
 
 .bottom-object .bottom-obj6 img{
@@ -327,9 +347,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right1 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right1 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 最新消息 */
@@ -346,9 +373,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right2 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right2 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 所有商品 */
@@ -367,10 +401,17 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right3 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right3 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 門市資訊 */
@@ -387,9 +428,16 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right4 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right4 a{
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 /* 線上購物 */
@@ -408,10 +456,17 @@ body{
     margin-top: 5px;
 }
 
+/* -----hover */
+.main-right5 a:hover{
+    color: #94E30F;
+}
+/* ------ */
+
 .main-right5 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
 /* 底層文字 */
