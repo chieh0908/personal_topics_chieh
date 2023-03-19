@@ -960,7 +960,7 @@ body{
     position:absolute ;
     top: 45px;
     left: 124px;
-    transition: .8s;
+    transition: 0.8s;
 }
 
 .bottom-object .bottom-obj7{}

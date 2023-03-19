@@ -334,6 +334,12 @@ body{
     /* width: 100%; */
 }
 
+/* -----hover------ */
+.bottom-object .bottom-obj6:hover p{
+    color: white;
+}
+/* ------------- */
+
 .bottom-object .bottom-obj6 p{
     font-size: 24px;
     font-weight: bold;
@@ -341,6 +347,7 @@ body{
     position:absolute ;
     top: 45px;
     left: 124px;
+    transition: 0.8s;
 }
 
 .bottom-object .bottom-obj7{}
