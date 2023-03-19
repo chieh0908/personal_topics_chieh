@@ -127,14 +127,13 @@ body {
     left: 0px;
     z-index: -1;
 }
-
+/* -----hover----- */
 .nav-left ul li:hover a{
     /* display: block; */
     color: white;
     background-color: #73B20A;
-    /* width: 800px; */
 }
-
+/* ---------------- */
 .nav-left ul li {
     /* height: 20%; */
     border-bottom: 1px solid #73B20A;
@@ -278,9 +277,11 @@ body {
     margin-bottom: 30px;
 }
 
+/* -------hover------- */
 .main-right ul li:hover{
     box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
 }
+/* --------------- */
 
 .main-right ul li{
     margin: 50px 40px;
@@ -300,9 +301,11 @@ body {
     overflow: hidden;
 }
 
+/* -------hover-------- */
 .main-right ul li img:hover{
     transform: scale(1.2);
 }
+/* -------------- */
 
 .main-right ul li img {
     transition: 0.8s;
