@@ -75,41 +75,53 @@ body {
 .nav-left {
     display: flex;
     margin-top: 20px;
-
-
     position: relative;
 }
 
 
 /* 物件1 */
-.object1 {
+/* .object1 {
     position: relative;
 }
 
 .object1 img {
     display: block;
     position: absolute;
-    position: fixed;
     top: 50%;
     left: 50%;
-    z-index: 3;
-    translate: -214% -89%;
-}
+    z-index: 5;
+    translate: -0.5% 26%;
+} */
 
 /* ub導覽列 */
 .nav-left ul {
-    margin-top: 100px;
-    height: 1284px;
+    margin-top: 80px;
+    height: 1449px;
     width: 447px;
     background-color: #C5E4A6;
     position: absolute;
-    position: fixed;
+    /* position: fixed; */
     top: 20px;
     left: 0px;
-    z-index: 2;
+    z-index: 1;
     text-align: center;
-    padding-top: 280px;
+    padding-top: 320px;
 }
+
+.nav-left ul img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.nav-left ul img:last-child{
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    z-index: -1;
+}
+
 
 .nav-left ul li {
     /* height: 20%; */
@@ -118,6 +130,7 @@ body {
     margin: 0 auto;
     margin-bottom: 50px;
     line-height: 1.4;
+    
 }
 
 .nav-left ul li a {
@@ -125,22 +138,23 @@ body {
     font-size: 40px;
     color: #517C09;
     text-decoration: none;
+    padding: 20px 20px;
 }
 
 /* 物件2 */
-.object2 {
+/* .object2 {
     position: relative;
+    display: block;
 }
 
 .object2 img {
     display: block;
     position: absolute;
-    position: fixed;
     top: 50%;
     left: 50%;
-    z-index: 3;
-    translate: -240% -3%;
-}
+    z-index: 2;
+    translate: -10% 100%;
+} */
 
 /* 右邊區塊 */
 .main-right {
@@ -277,6 +291,7 @@ body {
     height: 482px;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 5;
 }
 
 .footer .footer-top {
