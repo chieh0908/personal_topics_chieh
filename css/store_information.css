@@ -1,4 +1,7 @@
 @import url("reset.css");
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #DEF0C6;
     font-family: 'Noto Sans TC', sans-serif;
