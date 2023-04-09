@@ -1471,10 +1471,13 @@ body {
     }
     /* 導覽列滑動選單 */
     .nav-rwd{
-        /* display: block; */
+        display: block;
         /* display: none; */
         border: 1px solid red;
         background-color: #C5E4A6;
+        position: absolute;
+        top: 90px;
+        left: -1000px;
     }
     .nav-rwd li{
         width: 100vw;
@@ -1526,6 +1529,12 @@ body {
         width: 20px;
         height: 1px;
         background-color: white;
+    }
+
+    .open{
+        left: 0;
+        opacity: 1;
+        transition: 1s;
     }
 
     .banner1{
