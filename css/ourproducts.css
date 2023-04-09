@@ -10,12 +10,6 @@ body{
     /* width: 100%; */
 }
 
-.banner1 {
-    width: 100%;
-    display: block;
-    margin-top: 50px;
-}
-
 /* <!-- 導覽列 --> */
 .nav-top {
     height: 120px;
@@ -30,43 +24,43 @@ body{
 
 .nav1 {
     width: 100%;
-    height: 120px;
+    height: 90px;
     background-image: linear-gradient(0deg, #2e6603 0%, #1E380D 30%, #0F1A11 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
     overflow: hidden;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;    
 }
 
 .nav1 li {}
-
 /* -----hover----- */
 .nav1 li a:hover{
     color: #94E30F;
 }
 /* ------------- */
-
 .nav1 li a {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
-    padding: 30px 30px;
+    /* border: 1px solid purple; */
+    padding: 20px 20px;
     transition: 0.7s;
 }
 
-.nav1 li a img {}
+.nav1 li a img {
+    width: 50px;
+}
 
 /* <!-- 導覽列右邊 --> */
 .nav2 {
+    /* width: 300px; */
     display: flex;
     position: absolute;
-    top: 60px;
+    top: 45px;
     right: 50px;
-    transform: translateY(-50%);
-    
-
+    transform: translateY(-50%);    
 }
 
 .nav2 li {}
@@ -79,6 +73,11 @@ body{
     overflow: hidden;
 }
 
+.nav2 li a img{
+    width: 20px;
+    height: 20px;
+}
+
 /* -----hover------ */
 .nav2 li a img:hover{
     filter: drop-shadow(50px 0 0 #94E30F);
@@ -86,16 +85,24 @@ body{
 }
 /* -------------- */
 
+.main{
+    display: flex;
+    /* width: 100%; */
+}
+/* -------------- */
+
 /* ----------商品卡片----------- */
 
 /* 所有商品標籤 */
-.cart{}
+.cart{
+    overflow: hidden;
+}
 
 
 .body-mid-banner2{
     position: relative;
     padding-top: 260px;
-    
+    position: relative;
 }
 
 .body-mid-banner2 .mid-banner2{
@@ -103,10 +110,11 @@ body{
     /* margin: 0 auto; */
     padding-bottom: 100px;
     
+    
 }
 
 .body-mid-banner2 .mid-banner2 h1{
-    font-size: 64px;
+    font-size: 2.5em;
     font-family: arial;
     color: #517C09;
     text-align: center;
@@ -123,7 +131,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -360% 1080%;
+    translate: -290% 1250%;
 }
 
 .body-mid-banner2 .mid-banner2 h1::after{
@@ -135,11 +143,11 @@ body{
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 360% 1080%;
+    translate: 290% 1250%;
 }
 
 .mid-banner2 h3{
-    font-size: 40px;
+    font-size: 1.8em;
     color: #73B20A;
     font-weight:500;
     text-align: center;
@@ -154,7 +162,7 @@ body{
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: -360% 310%;
+    translate: -310% 280%;
 
 }
 
@@ -167,7 +175,7 @@ body{
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 450% 310%;
+    translate: 400% 280%;
 
 }
 /* 物件1 */
@@ -181,7 +189,8 @@ body{
     top: 50%;
     right: 49.5%;
     z-index: -1;
-    translate: 168.5% -47%;
+    translate: 164% -47%;
+    width: 30vw;
 }
 
 /* 物件2 */
@@ -190,26 +199,30 @@ body{
 }
 
 .object2 img{
+    width: 30vw;
     display: block;
     position: absolute;
     top: 50%;
     left: 49.5%;
     z-index: -1;
-    translate: -178% -75%;  
+    translate: -175% -75%;  
 }
 
 /* 卡片標題1 */
-.cart-top{}
+.cart-top{
+    width: 70vw;
+    margin: 0 auto;
+}
 
 .cart-top-1{
     text-align: left;
     /* border: 1px solid red; */
-    width: 1320px;
+    width: 70vw;
     margin: 0 auto;
 }
 
 .cart-top-1 h3{
-    font-size: 40px;
+    font-size: 1.8em;
     color: #517C09;
     border-bottom: 1px solid #517C09;
     line-height: 1.6;
@@ -218,29 +231,35 @@ body{
 /* 商品卡片1 */
 .cart-top ul{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 50px;
-    width: 1450px;
+    /* width: 1450px; */
     margin: 0 auto;
     flex-wrap: wrap;
     margin-bottom: 70px;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .cart-top ul li{
-    margin: 60px 40px;
-    height: 560px;
-    width: 387px;
+    margin: 30px 20px;
+    /* height: 560px; */
+    /* width: 387px; */
+    width: 20vw;
+    height: 68vh;
     background-color: #C5E4A6;
     box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
-    /* overflow: hidden; */
+    /* border: 1px solid red; */
 }
 
 .cart-top ul li:hover{
     /* box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8); */
 }
 
-.cart-top ul li img{}
+.cart-top ul li img{
+    width: 100%;
+    justify-content: flex-start;
+}
 
 .cart-top ul li img:hover{
     /* transform: scale(180%); */
@@ -248,11 +267,23 @@ body{
 }
 
 .cart-top ul li p{
-    font-size: 20px;
+    display: block;
+    height: 26vh;
+    font-size: 1em;
     color: #73B20A;
     text-align: center;
     line-height: 1.4;
-    transform: translateY(20px);   
+    /* transform: translateY(20px);    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+
+.cart-top ul li p span{
+    color: #517C09;
 }
 
 /* 物件3 */
@@ -261,10 +292,11 @@ body{
 }
 
 .object3 img{
+    width: 60vw;
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 94% -40%;
+    translate: 95% -35%;
     z-index: -1;
 }
 
@@ -312,132 +344,161 @@ body{
 }
 
 /* ----footer---- */
-.footer{
+.footer {
     background-image: url("../img/footer.jpg");
     display: block;
-    height: 482px;
+    /* height: 482px; */
+    width: 100%;
+    /* height: 100%; */
+    /* width: 99vw; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.footer .footer-top{
+.footer .footer-top {
+    position: relative;
     justify-content: center;
     display: flex;
-    transform:translate(-200px);
+    /* transform:translate(-200px); */
+    /* border: 1px solid blue; */
 }
 
 /* 左邊logo區塊 */
-.footer-top .main-left{
-    margin-left: 200px;
+.footer-top .main-left {
+    /* position: absolute;
+    top: 10%;
+    left: 20%; */
+    margin-left: -200px;
     margin-top: 150px;
     text-align: center;
-}
-.footer-top .main-left img{
-    margin-bottom: 30px;
+    /* border: 1px solid red; */
 }
 
-.footer-top .main-left .main-left-icon{
+.footer-top>.main-left>a>img {
+    margin-bottom: 20px;
+    width: 8vw;
+}
+
+.footer-top .main-left .main-left-icon {
     display: flex;
+    /* border: 1px solid red; */
 }
 
-.main-left-icon a{
+.main-left-icon a {
     display: block;
     overflow: hidden;
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    /* height: 50px; */
+    /* margin: 0 auto; */
+}
+
+.main-left-icon a img {
+    display: block;
+    width: 2vw;
+    margin: 0 auto;
 }
 
 /* -----hover------ */
-.main-left-icon img:hover{
+.main-left-icon img:hover {
     filter: drop-shadow(50px 0 0 #94E30F);
-    margin-left: -100px;
+    margin-left: -44px;
 }
+
 /* -------------- */
 
-.footer-top .main-left .main-left-icon img{
+.footer-top .main-left .main-left-icon img {
     /* padding: 10px; */
 }
 
 /* 右邊導覽列 */
-.footer-top .main-right{
+.footer-top .main-right {
     display: flex;
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
-.footer-top .main-right ul{}
-/* 品牌故事 */
-.main-right1{}
 
-.main-right1::after{
+.footer-top .main-right ul {}
+
+/* 品牌故事 */
+.main-right1 {}
+
+.main-right1::after {
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
 
 /* -----hover */
-.main-right1 a:hover{
+.main-right1 a:hover {
     color: #94E30F;
 }
+
 /* ------ */
 
-.main-right1 a{
+.main-right a {
+    font-size: 1vw;
+}
+
+.main-right1 a {
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 最新消息 */
-.main-right2{
-    margin-left: 50px;
+.main-right2 {
+    margin-left: 40px;
 }
 
-.main-right2::after{
+.main-right2::after {
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
 
 /* -----hover */
-.main-right2 a:hover{
+.main-right2 a:hover {
     color: #94E30F;
 }
+
 /* ------ */
 
-.main-right2 a{
+.main-right2 a {
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 所有商品 */
-.main-right3{
+.main-right3 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.main-right3 :nth-child(1)::after{
+.main-right3 :nth-child(1)::after {
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
 
 /* -----hover */
-.main-right3 a:hover{
+.main-right3 a:hover {
     color: #94E30F;
 }
+
 /* ------ */
 
-.main-right3 a{
+.main-right3 a {
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -445,54 +506,56 @@ body{
 }
 
 /* 門市資訊 */
-.main-right4{
-    margin-left: 50px;
+.main-right4 {
+    margin-left: 40px;
 }
 
-.main-right4::after{
+.main-right4::after {
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
 
 /* -----hover */
-.main-right4 a:hover{
+.main-right4 a:hover {
     color: #94E30F;
 }
+
 /* ------ */
 
-.main-right4 a{
+.main-right4 a {
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 線上購物 */
-.main-right5{
+.main-right5 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.main-right5 :nth-child(1)::after{
+.main-right5 :nth-child(1)::after {
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
 
 /* -----hover */
-.main-right5 a:hover{
+.main-right5 a:hover {
     color: #94E30F;
 }
+
 /* ------ */
 
-.main-right5 a{
+.main-right5 a {
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -500,15 +563,19 @@ body{
 }
 
 /* 底層文字 */
-.footer-bottom{
-    text-align: center;
-    margin-top: 20px;
+.footer-bottom {
+
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin-bottom: 20px; */
 }
 
-.footer-bottom p{
+.footer-bottom p {
     color: white;
-    font-size: 15px;
+    text-align: center;
+    font-size: 0.8vw;
     letter-spacing: 2px;
-    
-    
+    padding: 20px 0;
+    line-height: 1.2;
+    /* border: 1px solid blue;    */
 }

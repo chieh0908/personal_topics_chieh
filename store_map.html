@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/news.css">
-    <title>NEWS</title>
+    <link rel="stylesheet" href="css/store_map.css">
+    <title>STORE INFORMATION</title>
 </head>
 <body>
     <!-- header -->
-    <div class="header">
+    <div class="header" id="header">
         
         <!-- 導覽列 -->
         <div class="nav-top">
@@ -57,105 +57,75 @@
                 </li>
             </ul>
         </div>
-        
     </div>
-    <!-- 最新消息頁 -->
-    <div class="body-bottom">
-        <!-- 最新消息 -->
-        <div class="body-bottom-banner2">
-            <div class="bottom-banner2">
-                <h1>NEWS</h1>
-                <h3>最新消息</h3>
+    <!-- 門市資訊標籤 -->
+    <div class="body-list">
+        <div class="body-mid-banner2">
+            <div class="mid-banner2">
+                <h1>STORE INFORMATION</h1>
+                <h3>門市資訊</h3>
             </div>
         </div>
-        <ul>
-            <li class="bottom-news1">
-                <a href="">
-                    <img src="img/news1.jpg" alt="">
-                </a>
-                <div class="news1">
-                    <div class="news1-bar">
-                        <p>新開</p>
-                        <p>新聞稿</p>
+      
+        <!-- 資訊列表1 -->
+        <div class="body-banner-taipei">
+            <h3>台北 | TAIPEI</h3>
+        </div>
+        <div class="main">
+            <div class="body-inf-list">
+                <!-- 台北地址資訊1 -->
+                <div class="body-inf-taipei">
+                    <div class="body-inf-list1">
+                        <h5>營業時間</h5>
+                        <h5>HOURS</h5>
                     </div>
-                    <p>【NEW OPEN】台北101新店開幕</p>
-                    <p>2023.3.12</p>
-                </div>
+                    <div class="body-inf-list2">
+                        <h5>10 : 00 ~ 21 : 30</h5>
+                    </div>
                     
-            </li>
-            <li class="bottom-news2">
-                <a href="">
-                    <img src="img/news2.jpg" alt="">
-                </a>
-                <div class="news2">
-                    <div class="news2-bar">
-                        <p>活動</p>
-                        <p>聯名商品</p>
-                    </div>
-                    <p>【聯名合作】Mister Donut x Matcha Life 茶廊首次聯名合作</p>
-                    <p>2023.2.15</p>
                 </div>
-            </li>
+                <div class="body-inf-taipei">
+                    <div class="body-inf-list1">
+                        <h5>地址</h5>
+                        <h5>ADD</h5>
+                    </div>
+                    <div class="body-inf-list2">
+                        <h5>台北市萬華區西寧南路46號2樓
+                            2nd Floor, No. 46, Xining South Road,
+                             Wanhua District, Taipei City</h5>
+                    </div>
+                    
+                </div>
+                <div class="body-inf-taipei">
+                    <div class="body-inf-list1">
+                        <h5>電話</h5>
+                        <h5>PHONE</h5>
+                    </div>
+                    <div class="body-inf-list2">
+                        <h5>+886 2 2710 1975</h5>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="taipei-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.91817741953776!2d121.50636127660033!3d25.044563881328592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9093ab6f6a1%3A0xd7d77fb831adf26a!2zMTA45Y-w5YyX5biC6JCs6I-v5Y2A6KW_5a-n5Y2X6LevNDbomZ8y5qiT!5e0!3m2!1szh-TW!2stw!4v1680782353312!5m2!1szh-TW!2stw" width="450" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             
-            <li class="bottom-news3">
-                <a href="">
-                    <img src="img/news3.jpg" alt="">
-                </a>
-                <div class="news3">
-                    <p>限時</p>
-                    <p>【限時供應】濃郁抹茶和黃油香氣的抹茶餅</p>
-                    <p>2023.1.12</p>
+        </div>
+         <!-- 返回門市按鈕 -->
+         <div class="body-mid-bottom2">
+            <a href="store_information.html"> 
+                <div class="bottom1"></div>
+                <div class="bottom2">
+                    <p>返回<br>門市</p>
                 </div>
-                    
-            </li>
-            <li class="bottom-news4">
-                <a href="">
-                    <img src="img/news4.jpg" alt="">
-                </a>
-                <div class="news4">
-                    <div class="news4-bar">
-                        <p>限時</p>
-                        <p>季節商品</p>
-                    </div>
-                    <p>【期間限定】抹茶和焙茶聖誕限定甜點拼盤</p>
-                    <p>2022.12.24</p>
-                </div>
-            </li>
-            <li class="bottom-news2">
-                <a href="">
-                    <img src="img/news2.jpg" alt="">
-                </a>
-                <div class="news2">
-                    <div class="news2-bar">
-                        <p>活動</p>
-                        <p>聯名商品</p>
-                    </div>
-                    <p>【聯名合作】Mister Donut x Matcha Life 茶廊首次聯名合作</p>
-                    <p>2023.2.15</p>
-                </div>
-            </li>
-            
-            <li class="bottom-news3">
-                <a href="">
-                    <img src="img/news3.jpg" alt="">
-                </a>
-                <div class="news3">
-                    <p>限時</p>
-                    <p>【限時供應】濃郁抹茶和黃油香氣的抹茶餅</p>
-                    <p>2023.1.12</p>
-                </div>
-                    
-            </li>
-        </ul>
-
-        <div class="obj4">
-            <img src="img/object4.png" alt="">
+            </a>
         </div>
     </div>
     <!-- footer -->
     <div class="footer">
         <div class="footer-top">
-            <!-- 左邊區塊 -->
             <div class="main-left">
                 <a href="index.html">
                     <img src="img/logo-footer.png" alt="">
@@ -172,7 +142,7 @@
                     </a>
                 </div>
             </div>
-            <!-- 右邊區塊 -->
+  
             <div class="main-right">
                 <div class="main-right1">
                     <a href="brand_story.html">品牌故事</a>
@@ -200,10 +170,10 @@
             </div>
             
         </div>
-        <!-- 底層P段落 -->
         <div class="footer-bottom">
             <p>本網站為緯育TibaMe前端工程師專業技術養成班THD101學員專題作品，本平台僅供學習、展示之用。<br>若有侵權疑慮，您可以私訊緯育TibaMe，後續會由專人協助處理。</p>
         </div> 
     </div>
+
 </body>
 </html>

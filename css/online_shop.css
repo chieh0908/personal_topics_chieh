@@ -6,14 +6,11 @@ body {
 }
 
 .header {
-    /* width: 100%; */
+    width: 100%;
+    height: 100%;
 }
 
-.banner1 {
-    width: 100%;
-    display: block;
-    margin-top: 50px;
-}
+
 
 /* <!-- 導覽列 --> */
 .nav-top {
@@ -29,43 +26,43 @@ body {
 
 .nav1 {
     width: 100%;
-    height: 120px;
+    height: 90px;
     background-image: linear-gradient(0deg, #2e6603 0%, #1E380D 30%, #0F1A11 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
     overflow: hidden;
-    letter-spacing: 2px;
-
+    letter-spacing: 2px;    
 }
 
 .nav1 li {}
-
 /* -----hover----- */
 .nav1 li a:hover{
     color: #94E30F;
 }
 /* ------------- */
-
 .nav1 li a {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
-    padding: 30px 30px;
+    /* border: 1px solid purple; */
+    padding: 20px 20px;
     transition: 0.7s;
 }
 
-.nav1 li a img {}
+.nav1 li a img {
+    width: 50px;
+}
 
 /* <!-- 導覽列右邊 --> */
 .nav2 {
+    /* width: 300px; */
     display: flex;
     position: absolute;
-    top: 60px;
+    top: 45px;
     right: 50px;
-    transform: translateY(-50%);
-
-
+    transform: translateY(-50%);    
 }
 
 .nav2 li {}
@@ -78,6 +75,11 @@ body {
     overflow: hidden;
 }
 
+.nav2 li a img{
+    width: 20px;
+    height: 20px;
+}
+
 /* -----hover------ */
 .nav2 li a img:hover{
     filter: drop-shadow(50px 0 0 #94E30F);
@@ -85,13 +87,22 @@ body {
 }
 /* -------------- */
 
-.nav2 li a img{}
+.main{
+    display: flex;
+    /* width: 100%; */
+}
 
 /* 左邊導覽列 */
 .nav-left {
-    display: flex;
-    margin-top: 20px;
-    position: relative;
+    /* display: flex; */
+    /* margin-top: 20px; */
+    position: sticky;
+    top: 14%;
+    height: 90vh;
+    width: 20vw;
+    background-color: #C5E4A6;
+    /* border: 1px solid red; */
+    overflow: hidden;
 }
 
 
@@ -109,95 +120,90 @@ body {
     translate: -0.5% 26%;
 } */
 
-/* ub導覽列 */
+/* 左導覽列 */
 .nav-left ul {
-    margin-top: 80px;
-    height: 1449px;
-    width: 447px;
-    background-color: #C5E4A6;
-    position: absolute;
+    /* margin-top: 80px; */
+    /* height: 1449px; */
+    /* width: 447px; */
+    /* background-color: #C5E4A6; */
+    /* position: absolute; */
     /* position: fixed; */
-    top: 20px;
-    left: 0px;
+    /* top: 20px; */
+    /* left: 0px; */
     z-index: 1;
     text-align: center;
-    padding-top: 320px;
+    padding: 70px 0;
+    /* padding-top: 320px; */
 }
 
 .nav-left ul img:nth-child(1){
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -30px;
+    right: 0;
     z-index: -1;
+    width: 15vw;
 }
 
 .nav-left ul img:last-child{
     position: absolute;
-    top: 40%;
-    left: 0px;
+    top: 60%;
+    left: -20px;
     z-index: -1;
+    width: 15vw;
 }
 /* -----hover----- */
 .nav-left ul li:hover a{
-    /* display: block; */
+    display: block;
     color: white;
     background-color: #73B20A;
+    border-top-left-radius: 50px;
 }
 /* ---------------- */
 .nav-left ul li {
     /* height: 20%; */
     border-bottom: 1px solid #73B20A;
-    width: 400px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    /* width: 400px; */
+    /* margin: 0 auto; */
+    margin: 30px 30px;
+    /* margin-bottom: 50px; */
     line-height: 1.4;
 }
 
 .nav-left ul li a {
     display: block;
-    font-size: 40px;
+    font-size: 20px;
     color: #517C09;
     text-decoration: none;
     padding: 20px 20px;
-    transition: 0.8s;
+    transition: 0.5s;
 }
-
-/* 物件2 */
-/* .object2 {
-    position: relative;
-    display: block;
-}
-
-.object2 img {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    translate: -10% 100%;
-} */
 
 /* 右邊區塊 */
 .main-right {
-    margin-left: 450px;
+    /* margin-left: 450px; */
+    width: 100%;
+    margin-top: 40px;
 }
 
 /* 線上購物標籤 */
 .body-mid-banner2 {
     position: relative;
-    padding-top: 260px;
-
+    padding-top: 160px;
+    /* border: 1px solid black; */
 }
 
 .body-mid-banner2 .mid-banner2 {
     display: block;
     /* margin: 0 auto; */
     padding-bottom: 100px;
+    width: 60vw;
+    margin: 0 auto;
+    /* border: 1px solid red; */
 
 }
 
 .body-mid-banner2 .mid-banner2 h1 {
-    font-size: 64px;
+    font-size: 2.5em;
     font-family: arial;
     color: #517C09;
     text-align: center;
@@ -214,7 +220,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: -330% 1080%;
+    translate: -270% 80%;
 }
 
 .body-mid-banner2 .mid-banner2 h1::after {
@@ -226,11 +232,11 @@ body {
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 330% 1080%;
+    translate: 270% 80%;
 }
 
 .mid-banner2 h3 {
-    font-size: 40px;
+    font-size: 1.8em;
     color: #73B20A;
     font-weight: 500;
     text-align: center;
@@ -245,7 +251,7 @@ body {
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: -360% 310%;
+    translate: -320% 130%;
 
 }
 
@@ -258,19 +264,21 @@ body {
     position: absolute;
     top: 50%;
     right: 50%;
-    translate: 450% 310%;
+    translate: 410% 130%;
 }
 
 /* 商品卡片 */
 .cart-top-1 {
     text-align: left;
     /* border: 1px solid red; */
-    width: 1320px;
-    margin: 0 auto;
+    width: 65vw;
+    /* margin: 0 auto; */
+    margin-left: 8.5%;
+    /* margin: 0 auto; */
 }
 
 .cart-top-1 h3 {
-    font-size: 40px;
+    font-size: 1.8em;
     color: #517C09;
     border-bottom: 1px solid #517C09;
     line-height: 1.6;
@@ -279,14 +287,20 @@ body {
 /* 商品卡片1 */
 .main-right ul {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    width: 1450px;
-    margin: 0 auto;
+    width: 68vw;
+    margin-left: 5%;
+    /* margin: 0 auto; */
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
 }
-
+.main-right ul:last-child{
+    margin-bottom: 120px;
+}
 /* -------hover------- */
 .main-right ul li:hover{
     box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8);
@@ -294,20 +308,22 @@ body {
 /* --------------- */
 
 .main-right ul li{
-    margin: 50px 40px;
-    height: 530px;
+    /* margin: 50px 40px; */
+    margin: 10px 30px 0 0;
+    height: 60vh;
     background-color: #C5E4A6;
     /* box-shadow: 0px 3px 10px rgba(115, 178, 10, 0.8); */
     /* width: 389px; */
     overflow: hidden;
     transition: 0.8s;
+    /* border: 1px solid red; */
 }
 
 .main-right ul li a{
     display: block;
     text-decoration: none;
-    width: 385px;
-    height: 389px;
+    width: 20vw;
+    /* height: 20vh; */
     overflow: hidden;
 }
 
@@ -318,83 +334,99 @@ body {
 /* -------------- */
 
 .main-right ul li img {
+    width: 100%;
     transition: 0.8s;
 }
 
 .main-right ul li p {
-    font-size: 20px;
+    font-size: 1em;
     color: #73B20A;
     text-align: center;
     line-height: 1.4;
+    width: 20vw;
     transform: translateY(20px);
     background-color: #C5E4A6;
 }
 
 /* ----footer---- */
-.footer {
+.footer{
     background-image: url("../img/footer.jpg");
     display: block;
-    height: 482px;
+    /* height: 482px; */
+    width: 100%;
+    /* height: 100%; */
+    /* width: 99vw; */
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 5;
 }
 
-.footer .footer-top {
+.footer .footer-top{
+    position: relative;
     justify-content: center;
     display: flex;
-    transform: translate(-200px);
+    /* transform:translate(-200px); */
+    /* border: 1px solid blue; */
 }
 
 /* 左邊logo區塊 */
-.footer-top .main-left {
-    margin-left: 200px;
+.footer-top .main-left{
+    /* position: absolute;
+    top: 10%;
+    left: 20%; */
+    margin-left: 122px;
     margin-top: 150px;
     text-align: center;
+    /* border: 1px solid red; */
+}
+.footer-top>.main-left>a>img{
+    margin-bottom: 20px;
+    width: 8vw;
 }
 
-.footer-top .main-left img {
-    margin-bottom: 30px;
-}
-
-.footer-top .main-left .main-left-icon {
+.footer-top .main-left .main-left-icon{
     display: flex;
+    /* border: 1px solid red; */
 }
 
 .main-left-icon a{
     display: block;
     overflow: hidden;
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    /* height: 50px; */
+    /* margin: 0 auto; */
+}
+
+.main-left-icon a img{
+    display: block;
+    width: 2vw;
+    margin: 0 auto;
 }
 
 /* -----hover------ */
 .main-left-icon img:hover{
     filter: drop-shadow(50px 0 0 #94E30F);
-    margin-left: -100px;
+    margin-left: -44px;
 }
 /* -------------- */
 
-.main-left-icon img {
+.footer-top .main-left .main-left-icon img{
     /* padding: 10px; */
 }
 
 /* 右邊導覽列 */
-.footer-top .main-right {
+.footer-top .main-right{
     display: flex;
-    margin-top: 150px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
-
-.footer-top .main-right ul {}
-
+.footer-top .main-right ul{}
 /* 品牌故事 */
-.main-right1 {}
+.main-right1{}
 
-.main-right1::after {
+.main-right1::after{
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -406,21 +438,25 @@ body {
 }
 /* ------ */
 
-.main-right1 a {
+.main-right a{
+    font-size: 1vw;
+}
+
+.main-right1 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 最新消息 */
-.main-right2 {
-    margin-left: 50px;
+.main-right2{
+    margin-left: 40px;
 }
 
-.main-right2::after {
+.main-right2::after{
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -432,23 +468,23 @@ body {
 }
 /* ------ */
 
-.main-right2 a {
+.main-right2 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 所有商品 */
-.main-right3 {
+.main-right3{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.main-right3 :nth-child(1)::after {
+.main-right3 :nth-child(1)::after{
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -460,7 +496,7 @@ body {
 }
 /* ------ */
 
-.main-right3 a {
+.main-right3 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -468,14 +504,14 @@ body {
 }
 
 /* 門市資訊 */
-.main-right4 {
-    margin-left: 50px;
+.main-right4{
+    margin-left: 40px;
 }
 
-.main-right4::after {
+.main-right4::after{
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -487,23 +523,23 @@ body {
 }
 /* ------ */
 
-.main-right4 a {
+.main-right4 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 線上購物 */
-.main-right5 {
+.main-right5{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.main-right5 :nth-child(1)::after {
+.main-right5 :nth-child(1)::after{
     content: "";
     display: block;
-    width: 123px;
+    width: 100px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -515,7 +551,7 @@ body {
 }
 /* ------ */
 
-.main-right5 a {
+.main-right5 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -523,13 +559,19 @@ body {
 }
 
 /* 底層文字 */
-.footer-bottom {
-    text-align: center;
-    margin-top: 20px;
+.footer-bottom{
+    
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin-bottom: 20px; */
 }
 
-.footer-bottom p {
+.footer-bottom p{
     color: white;
-    font-size: 15px;
+    text-align: center;
+    font-size: 0.8vw;
     letter-spacing: 2px;
+    padding: 20px 0;
+    line-height: 1.2;
+    /* border: 1px solid blue;    */
 }
