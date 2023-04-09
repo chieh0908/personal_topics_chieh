@@ -1571,4 +1571,62 @@ body {
         top: 0;
         right: -10px;
     }
+
+    /* 期間限定區塊 */
+    /* 第二個插件 */
+    .body-top-banner2{
+        padding-top: 80px;
+    }
+    .body-top-banner2 .banner2{
+        padding-bottom: 55px;
+    }
+    .body-top-banner2 .banner2 h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .body-top-banner2 .banner2 h1::before{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 1px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 13%;
+        left: 25%;
+    }
+    .body-top-banner2 .banner2 h1::after{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 1px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 13%;
+        right: 25%;
+    }
+    .body-top-banner2 .banner2 h3{
+        font-size: 20px;
+    }
+    .body-top-banner2 .banner2 h3::before{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -400% -100%;
+    }
+    .body-top-banner2 .banner2 h3::after{
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        translate: 290% -100%;
+    }
+    /* 第三個插件 */
+    .body-top ul .obj{
+        width: 30px;
+        position: absolute;
+        top: 40%;
+        right: -55px;
+    }
 }
