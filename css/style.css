@@ -1473,7 +1473,7 @@ body {
     .nav-rwd{
         display: block;
         /* display: none; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background-color: #C5E4A6;
         position: absolute;
         top: 90px;
