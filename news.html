@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- header -->
-    <div class="header">
+    <div class="header" id="header">
         
         <!-- 導覽列 -->
         <div class="nav-top">
@@ -43,6 +43,28 @@
                     <a href="">加盟專區</a>
                 </li>
             </ul>
+            <ul class="nav-rwd">
+                <li>
+                    <a href="brand_story.html">品牌故事</a>
+                
+                </li>
+                <li>
+                    <a href="news.html">最新消息</a>
+                
+                </li>
+                <li>
+                    <a href="ourproducts.html">所有商品</a>
+                </li>
+                <li>
+                    <a href="store_information.html">門市資訊</a>
+                </li>
+                <li>
+                    <a href="online_shop.html">線上購物</a>
+                </li>
+                <li>
+                    <a href="">加盟專區</a>
+                </li>
+            </ul>
             <!-- 導覽列右邊 -->
             <ul class="nav2">
                 <li>
@@ -56,8 +78,13 @@
                     </a>
                 </li>
             </ul>
+            <div class="nav3">
+                <div class="button1"></div>
+                <div class="button2"></div>
+                <div class="button3"></div>
+                
+            </div>
         </div>
-        
     </div>
     <!-- 最新消息頁 -->
     <div class="body-bottom">
@@ -205,5 +232,64 @@
             <p>本網站為緯育TibaMe前端工程師專業技術養成班THD101學員專題作品，本平台僅供學習、展示之用。<br>若有侵權疑慮，您可以私訊緯育TibaMe，後續會由專人協助處理。</p>
         </div> 
     </div>
+
+    <!-- rwd footer -->
+    <div class="rwd-footer">
+        <div class="footer-top">
+            <div class="main-left">
+                <a href="index.html">
+                    <img src="img/logo-footer.png" alt="">
+                </a>
+                <div class="main-left-icon">
+                    <a href="">
+                        <img src="img/icon-fb.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icon-ig.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icon-line.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="main-right">
+                <div class="main-right1">
+                    <a href="brand_story.html">品牌故事</a>
+                </div>
+                <div class="main-right2">
+                    <a href="news.html">最新消息</a>
+                </div>
+                <div class="main-right3">
+                    <a href="ourproducts.html">所有商品</a>
+                </div>
+                <div class="main-right4">
+                    <a href="store_information.html">門市資訊</a>
+                </div>
+                <div class="main-right5">
+                    <a href="online_shop.html">線上購物</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <p>本網站為緯育TibaMe前端工程師專業技術養成班THD101學員專題作品，本平台僅供學習、展示之用。<br>若有侵權疑慮，您可以私訊緯育TibaMe，後續會由專人協助處理。</p>
+        </div> 
+    </div>
+            
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $(".nav3").click(function(){     
+                $(".nav-rwd").toggleClass("open");
+            })
+
+            $('.nav3').click(function() {
+                $('.button2').toggleClass('close');
+                $('.button1').toggleClass('close');
+                $('.button3').toggleClass('close');
+            });
+        })
+    </script>    
 </body>
 </html>
