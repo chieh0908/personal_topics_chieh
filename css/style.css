@@ -1387,10 +1387,10 @@ body {
     }
     .h2-banner1 .h2-banner{
         /* width: 44vw; */
-        width: 59vw;
+        width: 60vw;
         position: absolute;
         /* top: 54px; */
-        top: 107px;
+        top: 97px;
         right: 0;
     }
     .h2-banner .span1{
@@ -1542,7 +1542,7 @@ body {
     /* 中間商品滑頁 */
     .body-mid ul li a p{
         font-size: 1em;
-        height: 12vh;
+        height: 100px;
         padding: 0 10px;
     }
     /* 底圖物件 */

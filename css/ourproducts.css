@@ -349,7 +349,7 @@ body{
 }
 
 /* ----footer---- */
-.footer {
+.footer{
     background-image: url("../img/footer.jpg");
     display: block;
     /* height: 482px; */
@@ -360,7 +360,7 @@ body{
     background-size: cover;
 }
 
-.footer .footer-top {
+.footer .footer-top{
     position: relative;
     justify-content: center;
     display: flex;
@@ -369,7 +369,7 @@ body{
 }
 
 /* 左邊logo區塊 */
-.footer-top .main-left {
+.footer-top .main-left{
     /* position: absolute;
     top: 10%;
     left: 20%; */
@@ -378,18 +378,17 @@ body{
     text-align: center;
     /* border: 1px solid red; */
 }
-
-.footer-top>.main-left>a>img {
+.footer-top>.main-left>a>img{
     margin-bottom: 20px;
     width: 8vw;
 }
 
-.footer-top .main-left .main-left-icon {
+.footer-top .main-left .main-left-icon{
     display: flex;
     /* border: 1px solid red; */
 }
 
-.main-left-icon a {
+.main-left-icon a{
     display: block;
     overflow: hidden;
     width: 3vw;
@@ -397,37 +396,34 @@ body{
     /* margin: 0 auto; */
 }
 
-.main-left-icon a img {
+.main-left-icon a img{
     display: block;
     width: 2vw;
     margin: 0 auto;
 }
 
 /* -----hover------ */
-.main-left-icon img:hover {
+.main-left-icon img:hover{
     filter: drop-shadow(50px 0 0 #94E30F);
     margin-left: -44px;
 }
-
 /* -------------- */
 
-.footer-top .main-left .main-left-icon img {
+.footer-top .main-left .main-left-icon img{
     /* padding: 10px; */
 }
 
 /* 右邊導覽列 */
-.footer-top .main-right {
+.footer-top .main-right{
     display: flex;
     margin-top: 100px;
     margin-left: 50px;
 }
-
-.footer-top .main-right ul {}
-
+.footer-top .main-right ul{}
 /* 品牌故事 */
-.main-right1 {}
+.main-right1{}
 
-.main-right1::after {
+.main-right1::after{
     content: "";
     display: block;
     width: 100px;
@@ -437,28 +433,27 @@ body{
 }
 
 /* -----hover */
-.main-right1 a:hover {
+.main-right1 a:hover{
     color: #94E30F;
 }
-
 /* ------ */
 
-.main-right a {
+.main-right a{
     font-size: 1vw;
 }
 
-.main-right1 a {
+.main-right1 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 最新消息 */
-.main-right2 {
+.main-right2{
     margin-left: 40px;
 }
 
-.main-right2::after {
+.main-right2::after{
     content: "";
     display: block;
     width: 100px;
@@ -468,26 +463,25 @@ body{
 }
 
 /* -----hover */
-.main-right2 a:hover {
+.main-right2 a:hover{
     color: #94E30F;
 }
-
 /* ------ */
 
-.main-right2 a {
+.main-right2 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 所有商品 */
-.main-right3 {
+.main-right3{
     display: flex;
     flex-direction: column;
     margin-left: 40px;
 }
 
-.main-right3 :nth-child(1)::after {
+.main-right3 :nth-child(1)::after{
     content: "";
     display: block;
     width: 100px;
@@ -497,13 +491,12 @@ body{
 }
 
 /* -----hover */
-.main-right3 a:hover {
+.main-right3 a:hover{
     color: #94E30F;
 }
-
 /* ------ */
 
-.main-right3 a {
+.main-right3 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -511,11 +504,11 @@ body{
 }
 
 /* 門市資訊 */
-.main-right4 {
+.main-right4{
     margin-left: 40px;
 }
 
-.main-right4::after {
+.main-right4::after{
     content: "";
     display: block;
     width: 100px;
@@ -525,26 +518,25 @@ body{
 }
 
 /* -----hover */
-.main-right4 a:hover {
+.main-right4 a:hover{
     color: #94E30F;
 }
-
 /* ------ */
 
-.main-right4 a {
+.main-right4 a{
     text-decoration: none;
     color: white;
     display: block;
 }
 
 /* 線上購物 */
-.main-right5 {
+.main-right5{
     display: flex;
     flex-direction: column;
     margin-left: 40px;
 }
 
-.main-right5 :nth-child(1)::after {
+.main-right5 :nth-child(1)::after{
     content: "";
     display: block;
     width: 100px;
@@ -554,13 +546,12 @@ body{
 }
 
 /* -----hover */
-.main-right5 a:hover {
+.main-right5 a:hover{
     color: #94E30F;
 }
-
 /* ------ */
 
-.main-right5 a {
+.main-right5 a{
     text-decoration: none;
     color: white;
     margin-bottom: 20px;
@@ -568,14 +559,14 @@ body{
 }
 
 /* 底層文字 */
-.footer-bottom {
-
+.footer-bottom{
+    
     /* border: 1px solid red; */
     width: 100%;
     /* margin-bottom: 20px; */
 }
 
-.footer-bottom p {
+.footer-bottom p{
     color: white;
     text-align: center;
     font-size: 0.8vw;
