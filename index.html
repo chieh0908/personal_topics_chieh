@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
     <title>MATCHA LIFE</title>
 </head>
@@ -93,7 +94,7 @@
         
         <div class="h2-banner1">
             <img src="img/banner001.jpg" alt="">
-            <div class="h2-banner">
+            <div class="h2-banner" data-aos="zoom-in">
                 <h2 class="span1">抹茶，</h2>
                 <h2 class="span2">讓您的味蕾和心靈一同陶醉。</h2>
             </div>
@@ -389,6 +390,7 @@
     </div>
             
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="slick-1.8.1/slick/slick.min.js"></script>
     <script>
         $(function(){
@@ -454,8 +456,12 @@
                     }
                     }
                 ]
-            });            
+            });
+                        
         })
-    </script>    
+    </script> 
+    <script>
+        AOS.init();
+    </script>   
 </body>
 </html>

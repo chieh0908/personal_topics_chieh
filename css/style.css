@@ -386,6 +386,7 @@ body {
 
 /* 第一個插件 */
 .body-mid {
+    display: block;
     width: 100%;
     /* max-width: 1260px; */
     margin: 0 auto;
@@ -400,8 +401,8 @@ body {
     display: block;
     position: relative;
     padding-top: 150px;
-    /* width: 100%; */
-    max-width: 1250px;
+    width: 100%;
+    /* max-width: 1250px; */
     margin: 0 auto;
     /* border: 1px solid red; */
     /* width: 100vw; */

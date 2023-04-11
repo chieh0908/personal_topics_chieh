@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/brand_story.css">
     <title>BRAND STORY</title>
 </head>
@@ -88,7 +89,7 @@
     </div>
     <div class="banner1">
         <img src="img/banner002.jpg" alt="">
-        <div class="h2-banner">
+        <div class="h2-banner" data-aos="zoom-in">
             <h3 class="span1">MatchaLife</h3>
             <h5 class="span2">是一家以抹茶為主打的專賣店，提供各式各樣的抹茶飲品和點心。Matcha Life 故事可以追溯到創辦人對日本文化的熱愛，以及對抹茶這種綠茶粉的熱情。<br><br>在這段時間裡，他發現市場上缺乏一個真正專注於抹茶的品牌，因此決定創立 Matcha Life。他認為，抹茶是一種具有健康益處和豐富文化背景的茶，可以在現代生活中扮演重要角色，因此希望讓更多人能夠體驗到抹茶的美味和文化。</h5>
         </div>
@@ -123,7 +124,7 @@
         <div class="object1">
             <img src="img/object8.png" alt="">
         </div>
-        <div class="body-top-banner2">
+        <div class="body-top-banner2" data-aos="zoom-in">
             <img src="img/banner9.png" alt="">
         </div>
         <div class="object2">
@@ -134,7 +135,7 @@
     <div class="body-bottom">
         <ul class="body-bottom1">
             <li>
-                <img src="img/banner10.jpg" alt="">
+                <img src="img/banner10.jpg" alt="" data-aos="zoom-in-right">
             </li>
             <li>
                 <h4>將抹茶的文化傳承給下一代</h4>
@@ -147,7 +148,7 @@
                 <p>我們提供的抹茶是經過反復改進的原創組合。它的特點是口感醇厚，同時感受到清爽的苦味和綠色香味。從江戶時代流傳下來的技術，工匠們高雅的感性，以及許多人的時間和精力，被用來將茶葉變成抹茶。抹茶即“日本濃縮咖啡”，是日本飲食文化的代表之一。從茶農到茶師、工匠、店員，抹茶是我們的真味，承載著很多人的誠意。</p>
             </li>
             <li>
-                <img src="img/banner11.jpg" alt="">
+                <img src="img/banner11.jpg" alt="" data-aos="zoom-in-left">
             </li>
         </ul>
         <div class="object3">
@@ -264,6 +265,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $(function(){
             $(".nav3").click(function(){     
@@ -276,6 +278,9 @@
                 $('.button3').toggleClass('close');
             });
         })
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
