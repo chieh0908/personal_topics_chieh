@@ -711,7 +711,7 @@ body {
     /* 左邊導覽列 */
     .nav-left{
         width: 100vw;
-        height: 23vh;
+        height: 200px;
         top: 0;
         z-index: 2;
     }
@@ -796,13 +796,15 @@ body {
     }
     .main-right ul li{
         margin: 20px 10px 30px 10px;
-        height: 30vh;
+        height: 270px;
     }
     .main-right ul li a{
         width: 34vw;
     }
     .main-right ul li p{
         width: 34vw;
+        padding: 0 5px;
+        box-sizing: border-box;
     }
 
     /* footer */
@@ -859,7 +861,8 @@ body {
         margin-bottom: 20px;
     }
     .main-right a{
-        width: 100px;
+        width: 120px;
+        font-size: 1.3em;
         /* margin-bottom: 20px; */
     }
     .main-right3 a{
@@ -882,5 +885,6 @@ body {
     }
     .footer-bottom p{
         padding: 20px 30px;
+        font-size: 0.8em;
     }
 }

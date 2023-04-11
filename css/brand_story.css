@@ -689,221 +689,234 @@ body{
 }
 
 @media screen and (max-width: 414px) {
-        /* 導覽列 */
-        .header{
-            width: 100vw;
-        }
-    
-        .nav-top{
-            width: 100vw;
-            height: 10vh;
-            background-image: linear-gradient(0deg, #2e6603 0%, #1E380D 30%, #0F1A11 100%);
-        }
-        /* 導覽列左邊 */
-        .nav1{
-           /* flex-direction: column; */
-        }
-        .nav1 li:nth-child(4){
-            display: block;
-            margin-right: 300px;
-            /* border: 1px solid red; */
-        }
-        .nav1 li{
-            display: none;
-        }
-        .nav1 li a{
-            font-size: 12px;
-        }
-        /* 導覽列滑動選單 */
-        .nav-rwd{
-            display: block;
-            /* display: none; */
-            /* border: 1px solid red; */
-            background-color: #C5E4A6;
-            position: absolute;
-            top: 90px;
-            left: -1000px;
-            transition: all 1s;
-        }
-        
-        .nav-rwd li{
-            width: 100vw;
-            margin: 25px 0;
-            /* margin: 0 auto; */
-            text-align: center;
-        }
-        .nav-rwd li a{
-            text-decoration: none;
-            color: #517C09;
-            border-bottom: 1px solid #73B20A;
-            font-size: 16px;
-        }
-        /* 導覽列右邊 */
-        .nav2{}
-        .nav2 li{}
-        .nav2 li a{
-            width: 37px;
-        }
-        .nav2 li a img{}
-    
-        /* 漢堡 */
-        .nav3{
-            width: 10vw;
-            /* display: flex; */
-            /* display: block; */
-            /* border: 1px solid red; */
-            position: absolute;
-            top: 38px;
-            right: 0;
-        }
-        .button1{
-            display: block;
-            width: 20px;
-            height: 1px;
-            background-color: white;
-            /* border: 1px solid red; */
-            margin-bottom: 5px;
-            position: absolute;
-            top: 0;
-            transition: all .8s;
-        }
-        .button2{
-            display: block;
-            width: 20px;
-            height: 1px;
-            background-color: white;
-            margin-bottom: 5px;
-            position: absolute;
-            top: 5px;
-        }
-        .button3{
-            display: block;
-            width: 20px;
-            height: 1px;
-            background-color: white;
-            position: absolute;
-            top: 10px;
-            transition: all .8s;    
-        }
-        .button1.close {
-            display: block;
-            transform: rotate(-225deg);
-            top: 5px;
-        }
-        .button3.close {
-            display: block;
-            transform: rotate(225deg);
-            top: 5px;
-        }
-    
-        .close{
-            display: none;
-        }
-    
-        .open{
-            left: 0;
-            opacity: 1;
-            transition: 1s;
-        }
-        /* banner */
-        .banner1{
-            overflow: hidden;
-        }
-        .banner1 img{
-            height: 350px;
-            width: auto;
-        }
-        .h2-banner{
-            padding-left: 40px;
-            padding-right: 30px;
-            position: absolute;
-            top: 121px;
-            right: 55px;
-            letter-spacing: 2px;
-            width: 56vw;
-        }
-        .span1{
-            font-size: 2em;
-        }
-        .span1::before{
-            height: 15vh;
-            width: 5px;
-        }
-        .span2::after{
-            height: 15vh;
-        }
-        /* 中間ul */
-        .body-top ul{
-            flex-direction: column;
-            padding-top: 70px;
-        }
-        .body-top ul li{
-            width: auto;
-            margin-bottom: 20px;
-        }
-        .body-top ul li img{
-            width: 50vw;
-            margin: 30px auto;
-        }
-        .body-top ul li h4{
-            width: 320px;
-        }
-        .body-top ul li p{
-            width: 320px;
-        }
-        .body-top .object1 img{
-            width: 60%;
-            translate: -140% -30%;
-        }
-        .body-top .body-top-banner2{
-            position: relative;
-            width: 92vw;
-            height: 310px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .body-top .body-top-banner2 img{
-            width: 133vw;
-            position: absolute;
-            top: 0px;
-            left: -80px;
-        }
-        /* bodybottom */
-        .body-bottom1{
-            flex-direction: column;
-            margin-top: 90px;
-        }
-        .body-bottom1 li img{
-            width: 80vw;
-            margin-bottom: 20px;
-        }
-        .body-bottom1 li:nth-child(2){
-            margin: 0 25px;
-        }
+    /* 導覽列 */
+    .header{
+        width: 100vw;
+    }
 
-        .body-bottom2{
-            flex-direction: column;
-            margin: 80px auto 0;
-        }
-        .body-bottom2 li img{
-            width: 80vw;
-        }
-        .body-bottom2 li:nth-child(1){
-            margin: 0 25px;
-            margin-bottom: 20px;
-        }
+    .nav-top{
+        width: 100vw;
+        height: 10vh;
+        background-image: linear-gradient(0deg, #2e6603 0%, #1E380D 30%, #0F1A11 100%);
+    }
+    /* 導覽列左邊 */
+    .nav1{
+        /* flex-direction: column; */
+    }
+    .nav1 li:nth-child(4){
+        display: block;
+        margin-right: 300px;
+        /* border: 1px solid red; */
+    }
+    .nav1 li{
+        display: none;
+    }
+    .nav1 li a{
+        font-size: 12px;
+    }
+    /* 導覽列滑動選單 */
+    .nav-rwd{
+        display: block;
+        /* display: none; */
+        /* border: 1px solid red; */
+        background-color: #C5E4A6;
+        position: absolute;
+        top: 90px;
+        left: -1000px;
+        transition: all 1s;
+    }
+    
+    .nav-rwd li{
+        width: 100vw;
+        margin: 25px 0;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    .nav-rwd li a{
+        text-decoration: none;
+        color: #517C09;
+        border-bottom: 1px solid #73B20A;
+        font-size: 16px;
+    }
+    /* 導覽列右邊 */
+    .nav2{}
+    .nav2 li{}
+    .nav2 li a{
+        width: 37px;
+    }
+    .nav2 li a img{}
 
-        .object3 img{
-            translate: 115% -10%;
-            width: 450px;
-        }
+    /* 漢堡 */
+    .nav3{
+        width: 10vw;
+        /* display: flex; */
+        /* display: block; */
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 38px;
+        right: 0;
+    }
+    .button1{
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: white;
+        /* border: 1px solid red; */
+        margin-bottom: 5px;
+        position: absolute;
+        top: 0;
+        transition: all .8s;
+    }
+    .button2{
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: white;
+        margin-bottom: 5px;
+        position: absolute;
+        top: 5px;
+    }
+    .button3{
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        top: 10px;
+        transition: all .8s;    
+    }
+    .button1.close {
+        display: block;
+        transform: rotate(-225deg);
+        top: 5px;
+    }
+    .button3.close {
+        display: block;
+        transform: rotate(225deg);
+        top: 5px;
+    }
 
-        /* 底層返回最上層元件 */
-        .bottom-object{
-            margin-top: 100px;
-        }
+    .close{
+        display: none;
+    }
 
-        /* footer */
+    .open{
+        left: 0;
+        opacity: 1;
+        transition: 1s;
+    }
+    /* banner */
+    .banner1{
+        overflow: hidden;
+    }
+    .banner1 img{
+        height: 350px;
+        width: auto;
+    }
+    .h2-banner{
+        padding-left: 40px;
+        padding-right: 30px;
+        position: absolute;
+        top: 121px;
+        right: 55px;
+        letter-spacing: 2px;
+        width: 56vw;
+    }
+    .span1{
+        font-size: 2em;
+    }
+    .span2{
+        font-size: 0.8em;
+    }
+    .span1::before{
+        height: 15vh;
+        width: 5px;
+    }
+    .span2::after{
+        height: 15vh;
+    }
+    /* 中間ul */
+    .body-top ul{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    .body-top ul li{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .body-top ul li img{
+        width: 50vw;
+        margin: 30px auto;
+    }
+    .body-top ul li h4{
+        width: 320px;
+    }
+    .body-top ul li p{
+        width: 320px;
+    }
+    .body-top .object1 img{
+        width: 60%;
+        translate: -140% -30%;
+    }
+    .body-top .body-top-banner2{
+        position: relative;
+        width: 92vw;
+        height: 310px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .body-top .body-top-banner2 img{
+        width: 133vw;
+        position: absolute;
+        top: 0px;
+        left: -80px;
+    }
+    /* bodybottom */
+    .body-bottom1{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .body-bottom1 li img{
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    .body-bottom1 li:nth-child(2){
+        margin: 0 25px;
+    }
+    .body-bottom1 li h4{
+        font-size: 1.3em;
+    }
+    .body-bottom1 li p{
+        font-size: 1em;
+    }
+    .body-bottom2{
+        flex-direction: column;
+        margin: 80px auto 0;
+    }
+    .body-bottom2 li img{
+        width: 80vw;
+    }
+    .body-bottom2 li:nth-child(1){
+        margin: 0 25px;
+        margin-bottom: 20px;
+    }
+    .body-bottom2 li h4{
+        font-size: 1.5em;
+    }
+    .body-bottom2 li p{
+        font-size: 1em;
+    }
+    .object3 img{
+        translate: 115% -10%;
+        width: 450px;
+    }
+
+    /* 底層返回最上層元件 */
+    .bottom-object{
+        margin-top: 100px;
+    }
+
+    /* footer */
     .footer{
         display: none;
     }
@@ -957,7 +970,8 @@ body{
         margin-bottom: 20px;
     }
     .main-right a{
-        width: 100px;
+        width: 120px;
+        font-size: 1.3em;
         /* margin-bottom: 20px; */
     }
     .main-right3 a{
@@ -980,5 +994,6 @@ body{
     }
     .footer-bottom p{
         padding: 20px 30px;
+        font-size: 0.8em;
     }
 }

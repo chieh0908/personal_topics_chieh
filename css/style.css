@@ -1387,10 +1387,10 @@ body {
     }
     .h2-banner1 .h2-banner{
         /* width: 44vw; */
-        width: 57vw;
+        width: 59vw;
         position: absolute;
         /* top: 54px; */
-        top: 134px;
+        top: 107px;
         right: 0;
     }
     .h2-banner .span1{
@@ -1541,7 +1541,7 @@ body {
     }
     /* 中間商品滑頁 */
     .body-mid ul li a p{
-        font-size: 16px;
+        font-size: 1em;
         height: 12vh;
         padding: 0 10px;
     }
@@ -1673,7 +1673,8 @@ body {
         margin-bottom: 20px;
     }
     .main-right a{
-        width: 100px;
+        width: 120px;
+        font-size: 1.3em;
         /* margin-bottom: 20px; */
     }
     .main-right3 a{
@@ -1696,5 +1697,6 @@ body {
     }
     .footer-bottom p{
         padding: 20px 30px;
+        font-size: 0.8em;
     }
 }

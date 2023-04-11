@@ -774,11 +774,13 @@ body{
     .cart-top ul li{
         margin: 25px 5px 10px;
         width: 37vw;
-        height: 36vh;
+        height: 300px;
     }
 
     .cart-top ul li p{
-        height: 19vh;
+        height: 150px;
+        padding: 0 7px;
+        font-size: 0.8em;
     }
     /* 卡片標題4 */
     .object3 img{
@@ -843,7 +845,8 @@ body{
         margin-bottom: 20px;
     }
     .main-right a{
-        width: 100px;
+        width: 120px;
+        font-size: 1.3em;
         /* margin-bottom: 20px; */
     }
     .main-right3 a{
@@ -866,5 +869,6 @@ body{
     }
     .footer-bottom p{
         padding: 20px 30px;
+        font-size: 0.8em;
     }
 }

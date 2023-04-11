@@ -766,7 +766,8 @@ body{
         margin-bottom: 20px;
     }
     .main-right a{
-        width: 100px;
+        width: 120px;
+        font-size: 1.3em;
         /* margin-bottom: 20px; */
     }
     .main-right3 a{
@@ -789,5 +790,6 @@ body{
     }
     .footer-bottom p{
         padding: 20px 30px;
+        font-size: 0.8em;
     }
 }
